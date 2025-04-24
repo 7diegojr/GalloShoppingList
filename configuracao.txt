@@ -1,0 +1,19 @@
+git config --global user.name 7diegojr
+git config --global user.email dfsntsjunior@gmail.com
+
+Abrir o terminal - CRTL + '
+
+Criar um projeto react native com expo:
+npx create-expo-app@latest GalloShoppingList --template blank
+
+cd GalloShoppingList
+
+Extensão React -> ES7+ react/redux/react
+
+atualizar os pacotes do node
+npm i
+executar o projeto
+npx expo start --localhost --android
+
+Instalar o pacote do Expo Router (várias telas)
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
