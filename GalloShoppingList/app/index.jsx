@@ -55,16 +55,17 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     color: 'grey',
+    alignSelf: 'center',
   },
   button: {
     position: 'absolte',
     backgroundColor: '#000',
-    bottom: '10%',
-    alingSelf: 'center',
+    bottom: -20,
+    alignSelf: 'center',
     borderRadius: 50,
     paddingVertical: 15,
     width: '60%',
-    textAling: 'center',
+    textAlign: 'center',
   },
 
   buttonText: {
